@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "C:\\Program Files (x86)\\Arduino\\libraries",
+  "customBuildProperties": "build.warn_data_percentage=75",
+  "fqbn": "ATTinyCore:avr:attinyx5:LTO=disable,TimerClockSource=default,chip=85,clock=8internal,bod=disable",
+  "hardwareFolders": "C:\\Program Files (x86)\\Arduino\\hardware,C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages,C:\\Users\\jschw\\Documents\\Arduino\\hardware",
+  "otherLibrariesFolders": "C:\\Users\\jschw\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10804",
+  "sketchLocation": "D:\\Git\\_ATtiny85_DS18B20_433\\ATtiny85_DS18B20_433\\ATtiny85_DS18B20_433.ino",
+  "toolsFolders": "C:\\Program Files (x86)\\Arduino\\tools-builder,C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr,C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages"
+}

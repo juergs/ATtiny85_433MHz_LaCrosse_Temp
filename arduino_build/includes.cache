@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages\\ATTinyCore\\hardware\\avr\\1.1.4\\cores\\tiny"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages\\ATTinyCore\\hardware\\avr\\1.1.4\\variants\\tinyX5"
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Temp\\arduino_build_61152\\sketch\\ATtiny85_DS18B20_433.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages\\ATTinyCore\\hardware\\avr\\1.1.4\\libraries\\SoftwareSerial"
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Temp\\arduino_build_61152\\sketch\\ATtiny85_DS18B20_433.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Temp\\arduino_build_61152\\sketch\\LaCrosse.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Temp\\arduino_build_61152\\sketch\\Narcoleptic.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Temp\\arduino_build_61152\\sketch\\OneWire.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\jschw\\AppData\\Local\\Arduino15\\packages\\ATTinyCore\\hardware\\avr\\1.1.4\\libraries\\SoftwareSerial\\SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]
