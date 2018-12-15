@@ -89,21 +89,21 @@ https://cpldcpu.wordpress.com/2014/04/25/the-nanite-85/
 
 Powersave modes:
 ================
-http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/
-http://www.gammon.com.au/forum/?id=11488&reply=9#reply9
-http://gammon.com.au/forum/?id=11497&reply=6#reply6
-http://www.gammon.com.au/power
-https://forum.arduino.cc/index.php?topic=326237.0
-https://www.insidegadgets.com/2011/02/05/reduce-attiny-power-consumption-by-sleeping-with-the-watchdog-timer/
+[lightweight-low-power-arduino-library] (http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/)
+(http://www.gammon.com.au/forum/?id=11488&reply=9#reply9)
+(http://gammon.com.au/forum/?id=11497&reply=6#reply6)
+[power](http://www.gammon.com.au/power)
+(https://forum.arduino.cc/index.php?topic=326237.0)
+[sleeping](https://www.insidegadgets.com/2011/02/05/reduce-attiny-power-consumption-by-sleeping-with-the-watchdog-timer/)
 ... und weitere Powersave-Gedanken:
-https://harizanov.com/2013/08/every-%CE%BCa-counts/
-http://electronics.stackexchange.com/questions/49182/how-can-i-get-my-atmega328-to-run-for-a-year-on-batteries
+(https://harizanov.com/2013/08/every-%CE%BCa-counts/)
+[run on batteries](http://electronics.stackexchange.com/questions/49182/how-can-i-get-my-atmega328-to-run-for-a-year-on-batteries)
 
 Hier noch ein weiteres Projekt mit RFM69:
-http://johan.kanflo.com/the-aaduino/
+[aaduino](http://johan.kanflo.com/the-aaduino/)
 
 und der Sketch dazu:
-https://github.com/kanflo/aaduino
+[sketch](https://github.com/kanflo/aaduino)
 
 *
 * The LaCrosse-protocol seems to be:
