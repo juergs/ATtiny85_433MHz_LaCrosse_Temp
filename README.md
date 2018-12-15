@@ -87,10 +87,9 @@ GND  4|    |5  PB0 (D 0) pwm0
 
 Powersave modes:
 ================
-[lightweight-low-power-arduino-library] (http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/)
+[lightweight-low-power-arduino-library](http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/)
 
 (http://www.gammon.com.au/forum/?id=11488&reply=9#reply9)
-
 (http://gammon.com.au/forum/?id=11497&reply=6#reply6)
 
 [power](http://www.gammon.com.au/power)
