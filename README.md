@@ -1,5 +1,5 @@
 # ATtiny85_433MHz_LaCrosse_Temp
-ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol.
+ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol and a Dallas 18B20 Onewire-Sensor.
     TX on D3 --- Pin 2
     DS18B20 on D2 ---PIN 5
     Configurable SensorID and DEEP_SLEEP-Time (see Code) 
