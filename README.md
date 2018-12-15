@@ -1,4 +1,4 @@
-# ATtiny85_433MHz_LaCrosse_Temp
+#ATtiny85_433MHz_LaCrosse_Temp
 ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol and a Dallas 18B20 Onewire-Sensor.
     TX on D3 --- Pin 2
     DS18B20 on D2 ---PIN 5
@@ -124,17 +124,27 @@ Bits 36-43: appear to encode a checksum (though I plan to double-check if this i
 encoding T=22.0C and RH=44%
 
  Thanks to: http://www.f6fbb.org/domo/sensors/tx3_th.php
+ 
  Thanks to: http://forum.arduino.cc/index.php?topic=155483.0
+ 
  Thanks to: https://forum.fhem.de/index.php/topic,50333.0.html
 
   #OneWire DS18S20, DS18B20, DS1822 Temperature Version 
-  using this Arduino Library: http://www.pjrc.com/teensy/td_libs_OneWire.html  
+  using this Arduino Library: 
+  http://www.pjrc.com/teensy/td_libs_OneWire.html  
+  
   http://milesburton.com/Dallas_Temperature_Control_Library
+  
   http://images.google.de/imgres?imgurl=http://www.tweaking4all.com/wp-content/uploads/2014/03/ds18b20-waterproof.jpg&imgrefurl=http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/&h=988&w=800&tbnid=mowdJDteDQmw_M:&tbnh=104&tbnw=84&docid=7g-v-bKlWHiqKM&usg=__9sTNcsYyWEgAZF-aP5rpUuvCyio=&sa=X&ved=0ahUKEwiRvJfp44HMAhVDDCwKHc1OBgcQ9QEIKjAB
+  
   http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
+  
   https://github.com/PaulStoffregen/OneWire
+  
   https://arduino-info.wikispaces.com/Brick-Temperature-DS18B20
+  
   https://arduino-info.wikispaces.com/MultipleTemperatureSensorsToLCD
+  
   http://www.pjrc.com/teensy/td_libs_OneWire.html
 
   #Hardware Overview and HowTo:
