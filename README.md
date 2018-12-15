@@ -2,7 +2,7 @@
 ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol.
     TX on D3 --- Pin 2
     DS18B20 on D2 ---PIN 5
-Configurable SensorID and DEEP_SLEEP-Time (see Code) 
+    Configurable SensorID and DEEP_SLEEP-Time (see Code) 
 /*
 *                                ATtiny-85-Version!!!
 *******************************************************************************************
