@@ -3,13 +3,13 @@ ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol.
     TX on D3 --- Pin 2
     DS18B20 on D2 ---PIN 5
     Configurable SensorID and DEEP_SLEEP-Time (see Code) 
-/*
-*                                ATtiny-85-Version!!!
-*******************************************************************************************
-*   Bei Programmer-Fehler: Dallas Sensor entfernen! Wenn: Mosi = Data & SCK = Sensor !
-*   Auf Pin-Belegung der Platine achten!!!!! -> Board_Typ setzen!
-*******************************************************************************************
-*      Auszug aus der Beschreibung des Herstellers:
+
+                                *ATtiny-85-Version!!!*
+
+   Bei Programmer-Fehler: Dallas Sensor entfernen! Wenn: Mosi = Data & SCK = Sensor !
+   Auf Pin-Belegung der Platine achten!!!!! -> Board_Typ setzen!
+
+Auszug aus der Beschreibung des Herstellers:
 – 120 Powerful Instructions – Most Single Clock Cycle Execution
 – 32 x 8-bit General Purpose Working Registers
 – Up to 20 MIPS Througput at 20 MHz
