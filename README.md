@@ -81,22 +81,27 @@ Ain2 (D 4) PB4  3|    |6  PB1 (D 1) pwm1
 GND  4|    |5  PB0 (D 0) pwm0
 +----+
 
-Install ATtiny - Models in Arduino IDE:
-http://highlowtech.org/?p=1695
+[Install ATtiny - Models in Arduino IDE:](http://highlowtech.org/?p=1695)
 
-ATtiny:
-https://cpldcpu.wordpress.com/2014/04/25/the-nanite-85/
+[ATtiny:](https://cpldcpu.wordpress.com/2014/04/25/the-nanite-85/)
 
 Powersave modes:
 ================
 [lightweight-low-power-arduino-library] (http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/)
+
 (http://www.gammon.com.au/forum/?id=11488&reply=9#reply9)
+
 (http://gammon.com.au/forum/?id=11497&reply=6#reply6)
+
 [power](http://www.gammon.com.au/power)
+
 (https://forum.arduino.cc/index.php?topic=326237.0)
+
 [sleeping](https://www.insidegadgets.com/2011/02/05/reduce-attiny-power-consumption-by-sleeping-with-the-watchdog-timer/)
+
 ... und weitere Powersave-Gedanken:
 (https://harizanov.com/2013/08/every-%CE%BCa-counts/)
+
 [run on batteries](http://electronics.stackexchange.com/questions/49182/how-can-i-get-my-atmega328-to-run-for-a-year-on-batteries)
 
 Hier noch ein weiteres Projekt mit RFM69:
