@@ -123,47 +123,36 @@ Example:
 HHHH 1000 0010 1111 1101 0010 1111 1101 0011 1010 0100
 encoding T=22.0C and RH=44%
 
-*/
-//**************************************************************
-// Thanks to: http://www.f6fbb.org/domo/sensors/tx3_th.php
-// Thanks to: http://forum.arduino.cc/index.php?topic=155483.0
-// Thanks to: https://forum.fhem.de/index.php/topic,50333.0.html
-//**************************************************************
-//  OneWire DS18S20, DS18B20, DS1822 Temperature Version 
-//  using this Arduino Library: http://www.pjrc.com/teensy/td_libs_OneWire.html
-//  The DallasTemperature library can do all this work for you!
-//  http://milesburton.com/Dallas_Temperature_Control_Library
-//  http://images.google.de/imgres?imgurl=http://www.tweaking4all.com/wp-content/uploads/2014/03/ds18b20-waterproof.jpg&imgrefurl=http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/&h=988&w=800&tbnid=mowdJDteDQmw_M:&tbnh=104&tbnw=84&docid=7g-v-bKlWHiqKM&usg=__9sTNcsYyWEgAZF-aP5rpUuvCyio=&sa=X&ved=0ahUKEwiRvJfp44HMAhVDDCwKHc1OBgcQ9QEIKjAB
-//  http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
-//  https://github.com/PaulStoffregen/OneWire
-//  https://arduino-info.wikispaces.com/Brick-Temperature-DS18B20
-//  https://arduino-info.wikispaces.com/MultipleTemperatureSensorsToLCD
-//  http://www.pjrc.com/teensy/td_libs_OneWire.html
-//
-//  Hardware Overview and HowTo:
-//  http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
-//
-//  Additionals:
-//  https://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Standard-Predefined-Macros.html
-//	https://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Invocation.html#Invocation
-//  https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html
-//
+ Thanks to: http://www.f6fbb.org/domo/sensors/tx3_th.php
+ Thanks to: http://forum.arduino.cc/index.php?topic=155483.0
+ Thanks to: https://forum.fhem.de/index.php/topic,50333.0.html
 
-/* How to connect multiple Sensors:
+  #OneWire DS18S20, DS18B20, DS1822 Temperature Version 
+  using this Arduino Library: http://www.pjrc.com/teensy/td_libs_OneWire.html  
+  http://milesburton.com/Dallas_Temperature_Control_Library
+  http://images.google.de/imgres?imgurl=http://www.tweaking4all.com/wp-content/uploads/2014/03/ds18b20-waterproof.jpg&imgrefurl=http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/&h=988&w=800&tbnid=mowdJDteDQmw_M:&tbnh=104&tbnw=84&docid=7g-v-bKlWHiqKM&usg=__9sTNcsYyWEgAZF-aP5rpUuvCyio=&sa=X&ved=0ahUKEwiRvJfp44HMAhVDDCwKHc1OBgcQ9QEIKjAB
+  http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
+  https://github.com/PaulStoffregen/OneWire
+  https://arduino-info.wikispaces.com/Brick-Temperature-DS18B20
+  https://arduino-info.wikispaces.com/MultipleTemperatureSensorsToLCD
+  http://www.pjrc.com/teensy/td_libs_OneWire.html
+
+  #Hardware Overview and HowTo:
+  http://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
+
+  #Additionals:
+  https://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Standard-Predefined-Macros.html
+  https://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Invocation.html#Invocation
+  https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html
+
+
+*How to connect multiple Sensors:
 The DS18B20 Digital Temperature sensor allows you to set multiple in parallel. When doing this, the OneWire library will read all sensors.
 For larger networks of sensors (more than 10), using smaller resistors should be considered, for example 1.6 KΩ or even less.
 It has been observed that large amounts of sensors (more than 10) in the same network can cause issues (colliding data),
 and for that purpose an additional resistor of say 100 … 120 Ω should be added between the data line to the Arduino and the data pin of the sensor, for each sensor !
-***/
 
-/*
-Sollte (bei korrektem Aufruf) der DHT22-Treiber schon beim ersten Versuch einen Wert zurückliefern,
-so handelt es sich nicht um einen aktuellen Messwert.
-Der DHT22 liefert nämlich beim Aufruf den abgespeicherten Messwert der zurückliegenden Messung und startet parallel einen neuen Messvorgang.
-Der Hersteller empfiehlt, den Sensor zweimal aufzurufen und nur den letzten Rückgabewert zu verwenden.
-*/
 
-/*
     Fuse-Einstellungen beim ATtiny85 für interne 20 MHz:
     ====================================================
     LF = 0xF1 ( PLL-Clock, not internal 8 MHz)
