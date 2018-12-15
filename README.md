@@ -1,15 +1,10 @@
 # ATtiny85_433MHz_LaCrosse_Temp
-
 ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol.
-
-TX on D3 --- Pin 2
-DS18B20 on D2 ---PIN 5
-
+    TX on D3 --- Pin 2
+    DS18B20 on D2 ---PIN 5
 Configurable SensorID and DEEP_SLEEP-Time (see Code) 
-
 /*
 *                                ATtiny-85-Version!!!
-*
 *******************************************************************************************
 *   Bei Programmer-Fehler: Dallas Sensor entfernen! Wenn: Mosi = Data & SCK = Sensor !
 *   Auf Pin-Belegung der Platine achten!!!!! -> Board_Typ setzen!
@@ -33,9 +28,7 @@ Configurable SensorID and DEEP_SLEEP-Time (see Code)
 – Internal Calibrated Oscillator
 – Six Programmable I/O Lines
 – 2.7 - 5.5V Operating Voltage
-
 - Gehäuseform: DIP, 8-polig, Herstellerbezeichnung "ATtiny85-20PU"
-
 *** Fuses auf 8Mhz internal clock gestellt (Standard) und Clock-Divider nicht gesetzt!
 avrdude: safemode: Fuses OK (H:FF, E:DF, L:E2)
 Uploading to I/O board using 'USBasp'
