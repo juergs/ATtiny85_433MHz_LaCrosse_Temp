@@ -119,8 +119,8 @@ Bits 16-27: encode the temperature. The system of encoding decimal digits seems 
 Bits 28-35: encode the relative humidity. Apply a NOT, convert to base 10, and the result is the relative humidity in %.
 Bits 36-43: appear to encode a checksum (though I plan to double-check if this is not the dew point, also reported by the weather station).
 
-Example:
-HHHH 1000 0010 1111 1101 0010 1111 1101 0011 1010 0100
+#Example:
+*HHHH 1000 0010 1111 1101 0010 1111 1101 0011 1010 0100
 encoding T=22.0C and RH=44%
 
  Thanks to: http://www.f6fbb.org/domo/sensors/tx3_th.php
