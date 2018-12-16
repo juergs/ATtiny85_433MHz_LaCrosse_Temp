@@ -3,6 +3,20 @@ ATtiny85: using a STX882-433Mhz Transmitter with a LaCrosse TX3 Protocol and a D
     TX on D3 --- Pin 2
     DS18B20 on D2 ---PIN 5
     Configurable SensorID and DEEP_SLEEP-Time (see Code) 
+    
+    Fuses: LF=0xF1 HF= 0xDF EF=0xFF Lock= 0x03
+
+Zitat
+
+    // NEU:
+    int iLongPulse  = 1300;
+    int iShortPulse  = 500;
+    int iDelay         = 1100;
+
+Timing taken from http://www.f6fbb.org/domo/sensors/tx_signals.php
+
+Bit_0: 1,3ms HIGH + 1,0ms LOW => Gesamt: 2,3 ms
+Bit_1: 0,5ms HIGH + 1,1ms LOW  => Gesamt: 1,6ms
 
                                 *ATtiny-85-Version!!!*
 
