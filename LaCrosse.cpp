@@ -44,7 +44,7 @@ int iDelay  = 900;*/
 // NEU:
 int iLongPulse  = 1300;
 int iShortPulse = 500;
-int iDelay      = 500;
+int iDelay      = 1100;
 
 
 
@@ -167,13 +167,21 @@ void LaCrosseClass::sendNibles()
 //-----------------------------------
 void LaCrosseClass::CalcTemp()
 {
-	// Temperature has an offset of 50 degrees, makes possible to transmit neg. Values
-	tens = (int(t) / 10) + 5;
-	ones = (int(t) % 10);
-	tenths = (int(t*10.0) % 10);
-
-	// We will send a temperature
-	nible3 = COM_TEMP;
+  if (t>= 0)
+    {
+        tens = ((int)t / 10) + 5;
+        ones = ((int)t % 10);
+        tenths = (int)(t * 10) % 10;       
+    }
+    else
+    {
+        t = 50 + t;        
+        tens = ((int)t / 10);
+        ones = ((int)t % 10);
+        tenths = (int) (t * 10) % 10;           
+    }
+	  //--- we send a temperature id
+	  nible3 = COM_TEMP;
 }
 //-----------------------------------
 void LaCrosseClass::CalcHum() 
